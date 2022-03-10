@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "streamlit_nyc_crashes"
+version = "0.1.0"
+description = "Data Visualization Apps for Vehicle Collision NYC data built on top of streamlit"
+authors = ["Gusti Triandi Winata <gustiowinata0@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
